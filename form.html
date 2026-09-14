@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran Akun</title>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">IMDb Top 3 Movies</a> |
+        <a href="blog.html">Dev Blogs</a> |
+        <a href="form.html">Form Pendaftaran Akun</a> |
+        <a href="cv.html">Curriculum Vitae</a>
+    </nav>
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>Daftar Akun</legend>
+
+            <label>Nama Lengkap:</label>
+            <input type="text" name="nama_lengkap">
+            <br><br>
+
+            <label>Jenis Kelamin:</label>
+            <input type="radio" name="jenis_kelamin" value="Laki-Laki"> Laki-Laki
+            <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+            <br><br>
+
+            <label>Tempat Lahir:</label>
+            <input type="text" name="tempat_lahir">
+            <br><br>
+
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal_lahir">
+            <br><br>
+
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="">-- Pilih Agama --</option>
+                <option value="Islam">Islam</option>
+                <option value="Katolik">Katolik</option>
+                <option value="Protestan">Protestan</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Buddha">Buddha</option>
+                <option value="Konghucu">Konghucu</option>
+            </select>
+            <br><br>
+
+            <label>Hobi:</label>
+            <input type="checkbox" name="hobi[]" value="Olahraga"> Olahraga
+            <input type="checkbox" name="hobi[]" value="Membaca"> Membaca
+            <input type="checkbox" name="hobi[]" value="Ngoding"> Ngoding
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br><br>
+
+            <input type="checkbox" name="persetujuan"> Dengan mendaftar saya setuju dengan Ketentuan dan Kebijakan Privasi Aplikasi.
+            <br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
